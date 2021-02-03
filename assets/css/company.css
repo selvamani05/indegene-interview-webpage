@@ -1,0 +1,158 @@
+.company {
+  /* display: none; */
+}
+
+.company__title {
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.company__sub__title {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.company__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+}
+
+.company__card__text__sec {
+  max-width: 325px;
+}
+
+.company__sec__title {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.company__sec__sub__title {
+  font-size: 15px;
+  color: #e9a3a6;
+}
+
+.company__sec__img__sec {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background-color: #e9a3a6;
+  text-align: center;
+  line-height: 115px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 992px) {
+
+  .company {
+    margin: 25px;
+  }
+
+  .company__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .company__sub__title {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+
+  /* .company__card {
+     } */
+
+  .to-center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company__card__text__sec {
+    max-width: 600px;
+  }
+
+  .company__sec__title {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .company__sec__sub__title {
+    font-size: 15px;
+    color: #e9a3a6;
+  }
+
+  .company__sec__img__sec {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: #e9a3a6;
+    text-align: center;
+    line-height: 115px;
+    margin: 20px;
+  }
+
+  .company__card__right .company__card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .company {
+    margin: 25px;
+  }
+
+  .company__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .company__sub__title {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+
+  /* .company__card {
+     } */
+
+  .to-center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company__card__text__sec {
+    max-width: 200px;
+  }
+
+  .company__sec__title {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .company__sec__sub__title {
+    font-size: 15px;
+    color: #e9a3a6;
+  }
+
+  .company__sec__img__sec {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: #e9a3a6;
+    text-align: center;
+    line-height: 115px;
+    margin: 20px;
+  }
+
+  .company__card__right .company__card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

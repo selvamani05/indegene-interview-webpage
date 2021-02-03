@@ -1,0 +1,211 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20vw;
+}
+
+.events__title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.events__card {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.events__card__img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.events__card__details {
+  margin-left: 20px;
+}
+
+.events__card__details__title {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.events__card__details__text {
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 10px;
+  color: #a0a0a0;
+  margin-bottom: 10px;
+}
+
+.events__card__details__text:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: -10px;
+}
+
+.events__card__details__date {}
+
+.events__card__details__date:before {
+  background: url("../images/date.png") no-repeat;
+}
+
+.events__card__details__hotel {
+  color: #d3c3b4;
+}
+
+.events__card__details__hotel:before {
+  background: url("../images/point.png") no-repeat;
+}
+
+/* .events__card__details__address {} */
+
+.events__card__details__address:before {
+  background: url("../images/address.png") no-repeat;
+}
+
+/* .events__card__details__btn {} */
+
+
+@media screen and (max-width: 992px) {
+  .events {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 10vw; */
+  }
+
+  .events__title {
+    font-size: 27px;
+    font-weight: 400;
+  }
+
+  .events__card {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 45px;
+  }
+
+  .events__card__img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .events__card__details {
+    margin-left: 15px;
+  }
+
+  .events__card__details__title {
+    font-size: 18px;
+    margin: 0 0 15px;
+  }
+
+  .events__card__details__text {
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 8px;
+    color: #a0a0a0;
+    margin-bottom: 8px;
+  }
+
+  .events__card__details__text:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: -7px;
+  }
+
+  .events__card__details__date:before {
+    background: url("../images/date.png") no-repeat;
+  }
+
+  .events__card__details__hotel {
+    color: #d3c3b4;
+  }
+
+  .events__card__details__hotel:before {
+    background: url("../images/point.png") no-repeat;
+  }
+
+  .events__card__details__address:before {
+    background: url("../images/address.png") no-repeat;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .events {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+  }
+
+  .events__title {
+    font-size: 18px;
+    font-weight: 250;
+  }
+
+  .events__card {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .events__card__img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .events__card__details {
+    margin-left: 10px;
+  }
+
+  .events__card__details__title {
+    font-size: 12px;
+    margin: 0 0 10px;
+  }
+
+  .events__card__details__text {
+    font-size: 7px;
+    font-style: italic;
+    padding-left: 5px;
+    color: #a0a0a0;
+    margin-bottom: 5px;
+  }
+
+  .events__card__details__text:before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: -5px;
+  }
+
+
+  .events__card__details__date:before {
+    background: url("../images/date.png") no-repeat;
+  }
+
+  .events__card__details__hotel {
+    color: #d3c3b4;
+  }
+
+  .events__card__details__hotel:before {
+    background: url("../images/point.png") no-repeat;
+  }
+
+
+  .events__card__details__address:before {
+    background: url("../images/address.png") no-repeat;
+  }
+}
