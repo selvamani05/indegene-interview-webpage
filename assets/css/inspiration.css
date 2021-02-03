@@ -1,0 +1,139 @@
+.inspiration {
+  height: 100vh;
+  width: 100%;
+  background: url("../images/nature-bg.png") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.inspiration__title {
+  font-size: 42px;
+  font-weight: 500;
+  padding: 75px 0 30px;
+  text-align: center;
+}
+
+.inspiration__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vh;
+}
+
+.inspiration__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+/* .inspiration__card__img {} */
+
+.inspiration__card__text {
+  font-size: 22px;
+  min-height: 50px;
+  text-align: center;
+}
+
+.inspiration__card__position {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  .inspiration {
+    height: 85vh;
+    width: 100%;
+    background: url("../images/nature-bg.png") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .inspiration__title {
+    font-size: 24px;
+    font-weight: 250;
+    padding: 75px 0 30px;
+    text-align: center;
+  }
+
+  .inspiration__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vh;
+  }
+
+  .inspiration__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+  }
+
+  .inspiration__card__img {
+    width: 125px;
+  }
+
+  .inspiration__card__text {
+    font-size: 18px;
+    min-height: 50px;
+    text-align: center;
+  }
+
+  .inspiration__card__position {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .inspiration {
+    height: 85vh;
+    width: 100%;
+    background: url("../images/nature-bg.png") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .inspiration__title {
+    font-size: 24px;
+    font-weight: 250;
+    padding: 75px 0 30px;
+    text-align: center;
+  }
+
+  .inspiration__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vh;
+  }
+
+  .inspiration__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+  }
+
+  .inspiration__card__img {
+    width: 125px;
+  }
+
+  .inspiration__card__text {
+    font-size: 18px;
+    min-height: 50px;
+    text-align: center;
+  }
+
+  .inspiration__card__position {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+  }
+}
