@@ -1,0 +1,105 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.end-to-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.to-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  color: #e9a3a6;
+}
+
+.btn-primary {
+  padding: 12px 20px;
+  background-color: #c7b199;
+  color: #fff;
+  border: 0;
+  font-size: 14px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.btn-primary:hover {
+  background-color: #9a8874;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  font-size: 14px;
+  border-radius: 2px;
+  font-weight: bold;
+  outline: none;
+}
+
+.btn-secondary:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.btn-secondary:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: -5px;
+  background: url("../images/play.png") no-repeat;
+}
+
+.hash {
+  color: #77797a;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .btn-primary {
+    padding: 5px 20px;
+    background-color: #c7b199;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    border-radius: 2px;
+    outline: none;
+  }
+
+  .btn-secondary {
+    padding: 5px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: bold;
+    outline: none;
+  }
+}
